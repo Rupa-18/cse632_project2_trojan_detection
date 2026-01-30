@@ -15,9 +15,5 @@ output/*
 # python junk
 __pycache__/
 .ipynb_checkpoints/# datasets
-*.csv
-data_raw/
-data/
-output/
-*.parquet
+
 
