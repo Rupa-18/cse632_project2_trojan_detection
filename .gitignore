@@ -1,9 +1,10 @@
-# datasets
-*.csv
-data_raw/
-data/
-output/
-*.parquet
+# ignore dataset files but keep folder
+data/*.csv
+!data/.gitkeep
+
+# ignore generated outputs but keep folder
+output/*
+!output/.gitkeep
 
 # models
 *.joblib
@@ -13,9 +14,10 @@ output/
 
 # python junk
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+.ipynb_checkpoints/# datasets
+*.csv
+data_raw/
+data/
+output/
+*.parquet
 
-# system files
-.DS_Store
-Thumbs.db
