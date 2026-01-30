@@ -1,0 +1,21 @@
+# datasets
+*.csv
+data_raw/
+data/
+output/
+*.parquet
+
+# models
+*.joblib
+*.pkl
+*.model
+*.json
+
+# python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# system files
+.DS_Store
+Thumbs.db
